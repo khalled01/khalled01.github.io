@@ -41,6 +41,8 @@ plugins:
 
 # Author profile
 author:""
+ # Author profile
+author:
   name   : "Khaled Elsayed"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
@@ -51,6 +53,7 @@ author:""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/khalled01"
+
 
 # Footer links
 footer:
