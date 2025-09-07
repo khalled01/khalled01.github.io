@@ -40,7 +40,7 @@ plugins:
   - jekyll-include-cache
 
 # Author profile
-author:
+author:""
   name   : "Khaled Elsayed"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
