@@ -1,8 +1,40 @@
 ---
 permalink: /about/
 title: "About"
+author_profile: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## Khaled Elsayed  
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+With over **25 years of rich experience** leading IT operations across multiple branches, I have developed strong expertise in **strategic planning, budgeting, and execution** to drive organizational success.  
+
+---
+
+### 🔹 IT Management & Infrastructure  
+- Experienced in preparing and transitioning systems for advanced stages of business growth.  
+- Skilled in planning and implementing **robust network and server infrastructures**.  
+- Proficient in deploying enterprise software packages, applications, and enforcing organizational IT policies.  
+
+---
+
+### 🔹 Data Protection & Technical Studies  
+- Strong background in **technical assessments** and **data protection**.  
+- Ability to design and implement measures that ensure operational continuity and secure handling of sensitive information.  
+
+---
+
+### 🔹 Cybersecurity Focus  
+In the last **3–4 years**, I have expanded into the dynamic field of **Cybersecurity**, applying my deep understanding of **networks and infrastructure** to protect digital assets.  
+- Practical experience with **Microsoft Defender Admin Center, Intune, and Sophos Central**.  
+- Aligning cybersecurity initiatives with compliance frameworks to strengthen organizational defense.  
+
+---
+
+### 🔹 Professional Journey  
+My career reflects a **relentless pursuit of excellence**, a commitment to **innovation**, and a focus on building secure, resilient IT environments that empower organizations to thrive in the digital age.  
+
+---
+
+### 🔹 Connect  
+- [LinkedIn](https://www.linkedin.com/in/khaledelsayed01/)  
+- [GitHub](https://github.com/khalled01)  
