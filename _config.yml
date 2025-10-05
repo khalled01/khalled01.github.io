@@ -1,57 +1,42 @@
 # Site settings
-title: ""
+title: "Khaled Elsayed - Cybersecurity Blog"
 email: ""
 description: >-
   IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security.
+baseurl: ""
+url: "https://khalled01.github.io"
 twitter_username: ""
 github_username: "khalled01"
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
-
+remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: "Africa/Cairo"
+timezone: Africa/Cairo
 
+# Reading Files
 include:
   - _pages
 
-# Plugins - include jekyll-remote-theme to allow remote_theme usage
+# Plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
-# Author profile
-author:
-  name: "Khaled Elsayed"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/khaledelsayed01/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/khalled01"
-
-# Footer links
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/khaledelsayed01/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/khalled01"
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Defaults
 defaults:
@@ -62,10 +47,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-
   - scope:
       path: "_pages"
       type: pages
@@ -73,11 +57,26 @@ defaults:
       layout: single
       author_profile: true
 
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
+# Author profile
+author:
+  name: "Khaled Elsayed"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
+  location: "Cairo, Egypt"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/khaledelsayed01/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/khalled01"
 
-tag_archive:
-  type: liquid
-  path: /tags/
+# Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/khaledelsayed01/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/khalled01"
