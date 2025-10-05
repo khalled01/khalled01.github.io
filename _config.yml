@@ -1,11 +1,11 @@
 # Site settings
 title: ""
-email:
+email: ""
 description: >-
   IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security.
-twitter_username:
-github_username: khalled01
-minimal_mistakes_skin: default
+twitter_username: ""
+github_username: "khalled01"
+minimal_mistakes_skin: "default"
 search: true
 
 # Build settings
@@ -15,7 +15,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: Africa/Cairo
+timezone: "Africa/Cairo"
 
 include:
   - _pages
