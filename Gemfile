@@ -1,17 +1,16 @@
 source "https://rubygems.org"
 
+# GitHub Pages gem - includes Jekyll and supported plugins
 gem "github-pages", group: :jekyll_plugins
 
-gem "tzinfo-data"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# Windows and JRuby does not include zoneinfo files
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# If you have any plugins, put them here!
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Plugins
 group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
   gem "jekyll-feed"
-  gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-algolia"
 end
