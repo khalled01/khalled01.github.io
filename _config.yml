@@ -1,8 +1,7 @@
 # Site settings
-title: "Khaled Elsayed - Cybersecurity Blog"
+title: "Khaled Elsayed"
 email: ""
-description: >-
-  IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security.
+description: "IT, IS & Cybersecurity Professional"
 baseurl: ""
 url: "https://khalled01.github.io"
 twitter_username: ""
@@ -18,11 +17,9 @@ paginate: 5
 paginate_path: /page:num/
 timezone: Africa/Cairo
 
-# Reading Files
 include:
   - _pages
 
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -30,15 +27,14 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Archives
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
 
-# Defaults
 defaults:
   - scope:
       path: ""
@@ -57,11 +53,10 @@ defaults:
       layout: single
       author_profile: true
 
-# Author profile
 author:
   name: "Khaled Elsayed"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
+  bio: "IT, IS & Cybersecurity Professional"
   location: "Cairo, Egypt"
   links:
     - label: "LinkedIn"
@@ -71,7 +66,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/khalled01"
 
-# Footer
 footer:
   links:
     - label: "LinkedIn"
