@@ -1,15 +1,13 @@
-# Site settings
-title: "Khaled Elsayed"
+title: Khaled Elsayed
 email: ""
-description: "IT, IS & Cybersecurity Professional"
+description: IT, IS & Cybersecurity Professional
 baseurl: ""
-url: "https://khalled01.github.io"
+url: https://khalled01.github.io
 twitter_username: ""
-github_username: "khalled01"
+github_username: khalled01
 minimal_mistakes_skin: default
 search: true
 
-# Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
@@ -47,30 +45,30 @@ defaults:
       share: true
       related: true
   - scope:
-      path: "_pages"
+      path: _pages
       type: pages
     values:
       layout: single
       author_profile: true
 
 author:
-  name: "Khaled Elsayed"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "IT, IS & Cybersecurity Professional"
-  location: "Cairo, Egypt"
+  name: Khaled Elsayed
+  avatar: /assets/images/bio-photo.jpg
+  bio: IT, IS & Cybersecurity Professional
+  location: Cairo, Egypt
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/khaledelsayed01/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/khalled01"
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/khaledelsayed01/
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/khalled01
 
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/khaledelsayed01/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/khalled01"
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://www.linkedin.com/in/khaledelsayed01/
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/khalled01
