@@ -5,7 +5,6 @@ baseurl: ""
 github_username: khalled01
 minimal_mistakes_skin: default
 search: true
-
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
@@ -37,13 +36,11 @@ author:
   name: Khaled Elsayed
   avatar: /assets/images/bio-photo.jpg
   bio: IT IS and Cybersecurity Professional
+
+social:
   links:
-    - label: LinkedIn
-      icon: fab fa-fw fa-linkedin
-      url: https://www.linkedin.com/in/khaledelsayed01/
-    - label: GitHub
-      icon: fab fa-fw fa-github
-      url: https://github.com/khalled01
+    - https://www.linkedin.com/in/khaledelsayed01/
+    - https://github.com/khalled01
 
 footer:
   links:
