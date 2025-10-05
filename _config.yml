@@ -1,9 +1,7 @@
 title: Khaled Elsayed
-email: ""
-description: IT, IS & Cybersecurity Professional
-baseurl: ""
+description: IT IS and Cybersecurity Professional
 url: https://khalled01.github.io
-twitter_username: ""
+baseurl: ""
 github_username: khalled01
 minimal_mistakes_skin: default
 search: true
@@ -13,7 +11,6 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: Africa/Cairo
 
 include:
   - _pages
@@ -25,14 +22,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
-
 defaults:
   - scope:
       path: ""
@@ -41,21 +30,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
       share: true
       related: true
-  - scope:
-      path: _pages
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
 author:
   name: Khaled Elsayed
   avatar: /assets/images/bio-photo.jpg
-  bio: IT, IS & Cybersecurity Professional
-  location: Cairo, Egypt
+  bio: IT IS and Cybersecurity Professional
   links:
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin
