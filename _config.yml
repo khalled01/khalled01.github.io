@@ -1,9 +1,9 @@
 # Site settings
 title: ""
-email: 
+email:
 description: >-
   IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security.
-twitter_username: 
+twitter_username:
 github_username: khalled01
 minimal_mistakes_skin: default
 search: true
@@ -32,9 +32,9 @@ plugins:
 
 # Author profile
 author:
-  name   : "Khaled Elsayed"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
+  name: "Khaled Elsayed"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "IT, IS & Cybersecurity Professional | Sharing knowledge in InfoSec, Compliance, and Cloud Security."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
